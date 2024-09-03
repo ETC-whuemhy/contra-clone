@@ -1,0 +1,336 @@
+/* header and nav */
+
+@media screen and (max-width: 1280px){
+
+.header{
+    padding: 34px 25px;
+    height: 101px;
+}
+
+.logo h2{
+    font-size: 22px;
+}
+}
+
+
+@media screen and (max-width:1215px){
+    .figmacon{
+        padding: 16px 16px 10px 16px;
+        overflow-x: auto;
+        justify-content: space-between;
+    }
+    
+    .figmacon::-webkit-scrollbar{
+        display: none;
+    }
+    }
+
+@media screen and (max-width:1200px){
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card:nth-child(2){
+        order: 5;
+    }
+
+    .card:nth-child(3){
+        order: 6;
+    }
+
+    .mt-minus{
+        margin-top: unset;
+    }
+}
+
+
+@media screen and (max-width: 1090px){
+    .btn{
+        padding: 10px;
+        width: 140px;
+    }
+
+    .login{
+        width: 80px;
+    }
+
+    .mainNav{
+        justify-content: flex-end;
+    }
+
+    .navbtn > a,
+    .navbtn div a:nth-child(2), .mainNavlist, .btn-mobile-nav ion-icon:nth-child(2){
+        display: none;
+    }
+
+    
+    .btn-mobile-nav, .mobileDiv{
+        display:block ;
+    }
+
+    .btn-mobile-nav ion-icon:first-child{
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (max-width:997px){
+    .mainhero{
+      width: 100%;
+    }
+
+    .one1,
+     .two2,
+      .three3{
+        display: none;
+    }
+
+    .lastbtn{
+        display: block;
+    }
+
+    .grid{
+        grid-template-columns: 1fr;
+    }
+  
+    .herotext h1{
+      font-size: 64px;
+    }
+  
+    .cardsection h2{
+      width: 50%;
+      text-align: center;
+      text-wrap: wrap;
+    }
+  
+    .talentwrapper{
+      width: 70%;
+      background-position: center;
+  }
+
+  .talentwrappersec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .talenttopwrapper{
+      width: 100%;
+  }
+  
+  .talentlowwrapper{
+      flex-direction: column;
+      width: 100%;
+  }
+  
+  
+  .textcontent {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+  }
+  
+  .textcontent > p {
+      text-align: center;
+      font-size: 40px;
+      width: 400px;
+  }
+  
+  .textcontent > div  button{
+      padding: 18px 30px;
+  }
+  
+  .cardwrapper{
+      width: 320px;
+      padding: 5px;
+  }
+
+  /* text only */
+
+  .textonly{
+    font-size: 40px;
+    width: 100%;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: "poppins";
+    margin:88px 0 53px 0;
+}
+
+.textonly p{
+    width: 80%;
+}
+
+/* button wrapper section */
+
+.txt{
+    padding: 0;
+}
+
+.txt > button{
+    width: 175px;
+}
+
+/* card row sextion */
+
+.cardrow{
+    flex-direction: column;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardrow > div{
+    width: 90%;
+}
+
+.card2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    padding: 50px 0;
+}
+
+.card2 > .titlecon > .direction{
+    display:flex;
+}
+
+.card2 > .imagewrapperone{
+    margin: 0;
+    margin-top: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    margin: 0;
+}
+
+  }
+
+
+@media screen and (max-width:860px){
+   footer{
+    height: auto;
+   }
+
+   .footerwrapper{
+    flex-wrap: wrap;
+   }
+  }
+
+
+  @media screen and  (max-width: 660px){
+    .talentwrapper{
+        width: 100%;
+        margin: 0;
+        padding-left: 19px;
+        padding-right: 19px;
+    }
+
+    .cardwrapper{
+       width: 100%; 
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .navbtn div a:nth-child(1){
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:460px){
+    .logo h2{
+        display: none;
+    }
+
+    .herotext h1{
+        font-size: 35px;
+    }
+
+
+    .action{
+        padding: unset;
+        padding-bottom: 10rem;
+    }
+
+    .wrapper span{
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .lower-wrapper{
+        padding: 1rem;
+    }
+
+
+    .one1,
+     .two2,
+      .three3{
+        display: none;
+    }
+
+
+    .herotext p{
+        font-size: 18px;
+    }
+    .cardsection > h2 {
+        width: 100%;
+    }
+
+    .textcontent > p{
+        font-size: 30px;
+        text-wrap: wrap;
+        width: 100%;
+    }
+
+    .cardwrapper{
+        max-width: 300px;
+    }
+
+    .talentlowwrapper{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* text only */
+
+    .textonly > p{
+        font-size: 35px;
+        width: 100%;
+    }
+
+    /* button wrapper */
+
+.txt{
+    padding: 3px;
+}
+
+    .txt > button{
+        width: 90px;
+        font-size: 12px;
+        text-align: center;
+        padding: 8px;
+    }
+
+    /* card row section */
+
+    .cardrow{
+        background-color: #d9d9d9;
+        padding: 30px 20px;
+        border-radius: 30px;
+    }
+
+    .cardrow .card1{
+        background-color: transparent;
+    }
+}
+
